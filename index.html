@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<title>In 7 Billion People</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Playfair+Display:wght@500;700&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="phone">
+  <div id="loader" class="loader">
+    <div class="loader-card">
+      <div class="loader-rose">🌹</div>
+      <h1>Loading Love</h1>
+      <div class="progress-bar"><div class="progress-fill" id="progressFill"></div></div>
+      <p class="loader-sub">Ready to bloom for love ♥</p>
+      <button id="bloomBtn" class="bloom-btn" disabled>TAP TO BLOOM FOR LOVE ♥</button>
+    </div>
+  </div>
+
+  <div id="stage" class="stage hidden">
+    <canvas id="roseCanvas"></canvas>
+    <div id="bloomText" class="bloom-text hidden">
+      <p class="small">EVERY PETAL BLOOMS WITH LOVE</p>
+      <h2>for love <span>♥</span></h2>
+      <button id="noteBtn" class="note-btn">📩 READ MY NOTE</button>
+    </div>
+  </div>
+
+  <div id="letterModal" class="modal hidden">
+    <div class="letter-card">
+      <button id="closeBtn" class="close-btn">✕</button>
+      <h2 class="dear">Dear Love,</h2>
+      <p id="letterText" class="letter-text"></p>
+      <p id="yours" class="yours hidden">Yours forever. ♥</p>
+    </div>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
